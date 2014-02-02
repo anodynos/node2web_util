@@ -1,7 +1,7 @@
-**nodejs 'util' core module.**
+'util' nodejs core module browserify-ied with `--standalone util`.
+Supports all module systems (commonjs, AMD & `window.util`) - check browserify docs.
 
 From [node2web](http://github.com/anodynos/node2web) collection,
-via [browserify-CDN](http://wzrd.in/),
-exposed as 'util' to [bower](http://bower.io) for *browser* usage.
+should/will be exposed as 'util' to [bower](http://bower.io) for *browser* usage.
 
-Latest [browserify-CDN](http://wzrd.in/) reported **version: 'v0.10.12'**
+browserify version: '3.24.10'
