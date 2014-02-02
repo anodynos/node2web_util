@@ -1,10 +1,9 @@
-/** 'util' nodejs core module browserify-ied with `--standalone util`.
-Supports all module systems (commonjs, AMD & `window.util`) - check browserify docs.
+/** 'util' nodejs core module browserify-ied with `--standalone util`. Should support all module systems (commonjs, AMD & `window.util`) - check browserify docs.
 
 From [node2web](http://github.com/anodynos/node2web) collection,
 should/will be exposed as 'util' to [bower](http://bower.io) for *browser* usage.
 
-browserify version: '3.24.10' 
+browserify version: '3.24.10', build date 'Sun Feb 02 2014 23:15:47 GMT+0200 (EET)' 
 **/
 !function(e){if("object"==typeof exports)module.exports=e();else if("function"==typeof define&&define.amd)define(e);else{var f;"undefined"!=typeof window?f=window:"undefined"!=typeof global?f=global:"undefined"!=typeof self&&(f=self),f.util=e()}}(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(_dereq_,module,exports){
 if (typeof Object.create === 'function') {
@@ -680,8 +679,8 @@ exports._extend = function(origin, add) {
 function hasOwnProperty(obj, prop) {
   return Object.prototype.hasOwnProperty.call(obj, prop);
 }
-}).call(this,_dereq_("/mnt/tc/DevelopmentProjects/WebStormWorkspace/p/node2web/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"./support/isBuffer":3,"/mnt/tc/DevelopmentProjects/WebStormWorkspace/p/node2web/node_modules/browserify/node_modules/insert-module-globals/node_modules/process/browser.js":2,"inherits":1}],5:[function(_dereq_,module,exports){
+}).call(this,_dereq_("process_browser"),typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
+},{"./support/isBuffer":3,"process_browser":2,"inherits":1}],5:[function(_dereq_,module,exports){
 module.exports = _dereq_('util');
 },{"util":4}]},{},[5])
 (5)

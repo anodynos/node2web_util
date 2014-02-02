@@ -2,7 +2,7 @@
  "name": "util",
  "version": "3.24.10",
  "main": "util.min.js",
- "description": "'util' nodejs core module browserify-ied with `--standalone util`.\nSupports all module systems (commonjs, AMD & `window.util`) - check browserify docs.",
+ "description": "'util' nodejs core module browserify-ied with `--standalone util`. Should support all module systems (commonjs, AMD & `window.util`) - check browserify docs.",
  "keywords": [
   "nodejs",
   "browserify",
